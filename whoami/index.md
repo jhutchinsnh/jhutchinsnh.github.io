@@ -1,6 +1,6 @@
 ## README
 
-Place whoami.py in a preferred location, then modify whoami.service and copy to `/etc/systemd/system/`.
+Place [whoami.py](https://github.com/jhutchinsnh/jhutchinsnh.github.io/tree/master/whoami) in a preferred location, then modify whoami.service and copy to `/etc/systemd/system/`.
 
 ## About this project
 

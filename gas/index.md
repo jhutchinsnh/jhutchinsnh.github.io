@@ -2,7 +2,7 @@
 
 [gas.py](https://github.com/jhutchinsnh/jhutchinsnh.github.io/tree/master/gas) requires Python 3.6+ and `mysql-connector-python`.
 
-To run the MySQL container, first modify docker-compose.yml to mount its volume in a preferred location. If using Windows, run the following before modifying the location:
+To run the MySQL container, first modify `docker-compose.yml` to mount its volume in a preferred location. If using Windows, run the following before modifying the location:
 
 	SET COMPOSE_CONVERT_WINDOWS_PATHS=1
 

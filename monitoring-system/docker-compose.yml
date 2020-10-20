@@ -1,0 +1,13 @@
+version: '3'
+services:
+ mysql:
+  image: mysql:8
+  environment:
+   MYSQL_DATABASE: 'zoo'
+   MYSQL_USER: 'admin'
+   MYSQL_PASSWORD: 'z00b00ks'
+   MYSQL_ROOT_PASSWORD: 'root'
+  ports:
+   - "3306:3306"
+  volumes:
+   - E:\Docker\mysql:/var/lib/mysql

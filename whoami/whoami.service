@@ -1,0 +1,9 @@
+[Unit]
+Description=whoami pseudo-resolver for DNS troubleshooting
+[Service]
+User=root
+WorkingDirectory=/path/to/dir
+ExecStart=/usr/bin/python /path/to/dir/whoami.py --host local.test --port 9999 --logfile /var/log/whoami.log
+SuccessExitStatus=1
+TimeoutStopSec=10
+Restart=no
